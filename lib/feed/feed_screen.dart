@@ -1,6 +1,6 @@
-import 'package:alarm_example/advice_widget.dart';
-import 'package:alarm_example/compliment_widget.dart';
-import 'package:alarm_example/weather_widget.dart';
+import 'package:alarm_example/apis/advice_widget.dart';
+import 'package:alarm_example/apis/compliment_widget.dart';
+import 'package:alarm_example/apis/weather_widget.dart';
 import 'package:flutter/material.dart';
 
 

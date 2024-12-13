@@ -1,5 +1,5 @@
 import 'package:alarm/alarm.dart';
-import 'package:alarm_example/alarm_repository.dart';
+import 'package:alarm_example/alarm/repository/alarm_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

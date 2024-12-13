@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:alarm/alarm.dart';
-import 'package:alarm_example/alarm_repository.dart';
+import 'package:alarm_example/alarm/repository/alarm_repository.dart';
 import 'package:alarm_example/alarm/screens/edit_alarm.dart';
 import 'package:alarm_example/alarm/screens/ring.dart';
 import 'package:alarm_example/alarm/services/permission.dart';
