@@ -37,7 +37,7 @@ class _AdviceWidgetState extends State<AdviceWidget> {
   Widget build(BuildContext context) {
     return  Container(
       padding: const EdgeInsets.all(15),
-      margin: EdgeInsets.symmetric(vertical: 15),
+      margin: const EdgeInsets.symmetric(vertical: 15),
       width: MediaQuery.sizeOf(context).width,
       decoration: BoxDecoration(
         color: Colors.blue[50],

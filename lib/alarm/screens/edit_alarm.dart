@@ -43,7 +43,7 @@ class _AlarmEditScreenState extends State<AlarmEditScreen> {
       vibrate = true;
       volume = null;
       fadeDuration = 0;
-      assetAudio = 'assets/egor_kreed.mp3';
+      assetAudio = 'assets/marimba.mp3';
     } else {
       controller.text = widget.alarmSettings!.notificationSettings.title;
       selectedDateTime = widget.alarmSettings!.dateTime;
@@ -122,8 +122,8 @@ class _AlarmEditScreenState extends State<AlarmEditScreen> {
       warningNotificationOnKill: Platform.isIOS,
       notificationSettings: NotificationSettings(
         title: controller.text,
-        body: 'Your alarm ($id) is ringing',
-        stopButton: 'Stop the alarm',
+        body: 'Your alarm is ringing',
+        stopButton: 'Stop',
         icon: 'notification_icon',
       ),
     );
@@ -258,20 +258,6 @@ class _AlarmEditScreenState extends State<AlarmEditScreen> {
                 ],
               ),
           ), 
-          // RawMaterialButton(
-          //   onPressed: pickTime,
-          //   fillColor: Colors.grey[200],
-          //   child: Container(
-          //     margin: const EdgeInsets.all(20),
-          //     child: Text(
-          //       TimeOfDay.fromDateTime(selectedDateTime).format(context),
-          //       style: Theme.of(context)
-          //           .textTheme
-          //           .displayMedium!
-          //           .copyWith(color: Colors.blueAccent),
-          //     ),
-          //   ),
-          // ),
           TextField(
             controller: controller,
             decoration: const InputDecoration(
@@ -314,10 +300,6 @@ class _AlarmEditScreenState extends State<AlarmEditScreen> {
               DropdownButton(
                 value: assetAudio,
                 items: const [
-                  DropdownMenuItem<String>(
-                    value: 'assets/egor_kreed.mp3',
-                    child: Text('Егор Крид'),
-                  ),
                   DropdownMenuItem<String>(
                     value: 'assets/marimba.mp3',
                     child: Text('Marimba'),
