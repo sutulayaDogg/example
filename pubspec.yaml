@@ -1,0 +1,35 @@
+name: alarm_example
+description: Demonstrates how to use the alarm plugin.
+version: 0.1.2
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  alarm: ^4.1.1
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  geocoding: ^3.0.0
+  geolocator: ^13.0.2
+  http: ^1.2.2
+  intl: ^0.20.1
+  numberpicker: ^2.1.2
+  permission_handler: ^11.3.1
+  url_launcher: ^6.3.1
+  weather: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/rington/
+    - assets/Icons/
