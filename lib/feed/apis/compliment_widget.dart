@@ -40,7 +40,7 @@ class _ComplimentWidgetState extends State<ComplimentWidget> {
     return Center(
         child: Container(
           padding: const EdgeInsets.all(15),
-          margin: EdgeInsets.symmetric(vertical: 15),
+          margin: const EdgeInsets.symmetric(vertical: 15),
           width: MediaQuery.sizeOf(context).width,
           decoration: BoxDecoration(
             color: Colors.pink[50],

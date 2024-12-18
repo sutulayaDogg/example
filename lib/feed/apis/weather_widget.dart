@@ -183,9 +183,8 @@ class _WeatherWidgetState extends State<WeatherWidget> {
                       )
                     ],
                   ),
-                  SizedBox(width: 15,),
+                  const SizedBox(width: 15,),
                   Column(
-                    mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Text(
                         'Ветер: до $windSpeed м/с',
